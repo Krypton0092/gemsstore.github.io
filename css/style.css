@@ -1193,6 +1193,7 @@ main>div#box3 {
 	margin-bottom: 100px;
 	width: 75%;
 	margin-left: 12.5%;
+	background-color: rgba(0, 0, 0, 0)
 }
 
 main>div#box3>span {
