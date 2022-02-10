@@ -37,7 +37,7 @@
 			<input type='text' id='i2'>
 			<input type='text' id='i3'>
 
-			<a id='b1' onclick="window.open('https://gamesdonate.com/pay/464fea67a96ecdefcc?account=' + document.getElementById('i2').value + '&good=29688&sum=')">Купить 119&#8381;</a>
+			<a id='b1' onclick="isEmpty()">Купить 119&#8381;</a>
 			<span id='ns2'>*Имя</span>
 			<span id='ns3'>*Эл.Почта</span>
 			<span id='ns4'>*Промокод (если есть)</span>
@@ -46,6 +46,38 @@
 			в рабочие часы (c 6:00 до 23:00 по Московскому времени).</span>
 		
 	</main>
+
+	<script> 
+		function isEmpty() {
+			let name = document.getElementById('i4').value
+			let mail = document.getElementById('i2').value
+			if(!!name) {
+				if(!!mail) {
+					window.open('https://oplata.qiwi.com/form?billId=46584&successUrl=https%3A%2F%2Fgemsstore.serverpay.ru%3Fgemsstore%264853&extras%5BapiClient%5D=php_sdk&extras%5BapiClientVersion%5D=0.1.2&invoiceUid=e5ea123f-fa23-44b8-a8c4-ed3fb1164459')
+				}
+
+				else {
+					document.getElementById('i2').style = 'background-color: #ff0000'
+					document.getElementById('i4').style = 'background-color: #fff'
+
+				}
+			} else if(!!mail) {
+				if(!!name) {
+					window.open('https://oplata.qiwi.com/form?billId=46584&successUrl=https%3A%2F%2Fgemsstore.serverpay.ru%3Fgemsstore%264853&extras%5BapiClient%5D=php_sdk&extras%5BapiClientVersion%5D=0.1.2&invoiceUid=e5ea123f-fa23-44b8-a8c4-ed3fb1164459')
+				}
+				else {
+					document.getElementById('i4').style = 'background-color: #ff0000'
+					document.getElementById('i2').style = 'background-color: #fff'
+				}
+			}
+
+
+			else {
+				document.getElementById('i4').style = 'background-color: #ff0000' 
+				document.getElementById('i2').style = 'background-color: #ff0000'
+			}
+		}
+	</script>
 
 </body>
 </html>
