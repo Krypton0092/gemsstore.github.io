@@ -1,4 +1,4 @@
-https://oplata.qiwi.com/form?invoiceUid=095a4105-560b-40dd-9447-0ce825f4a01d<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset='UTF-8'>
@@ -38,7 +38,7 @@ https://oplata.qiwi.com/form?invoiceUid=095a4105-560b-40dd-9447-0ce825f4a01d<!DO
 			<input type='text' id='i2'>
 			<input type='text' id='i3'>
 
-			<a id='b1' onclick="isEmpty()">Купить 399&#8381;</a>
+			<a id='b1' onclick="billid()">Купить 399&#8381;</a>
 			<span id='ns2'>*Имя</span>
 			<span id='ns3'>*Эл.Почта</span>
 			<span id='ns4'>*Промокод (если есть)</span>
@@ -49,12 +49,20 @@ https://oplata.qiwi.com/form?invoiceUid=095a4105-560b-40dd-9447-0ce825f4a01d<!DO
 	</main>
 
 	<script> 
-		function isEmpty() {
-			let name = document.getElementById('i4').value
+		function billid() {
+        var result = '';
+        var words = '0123456789qwertyuiopasdfghjklzxcvbnm';
+        var max_position = words.length - 1;
+            for( i = 0; i < 12; ++i ) {
+                position = Math.floor ( Math.random() * max_position );
+                result = result + words.substring(position, position + 1);
+            }
+
+            let name = document.getElementById('i4').value
 			let mail = document.getElementById('i2').value
 			if(!!name) {
 				if(!!mail) {
-					window.open('https://oplata.qiwi.com/form?invoiceUid=095a4105-560b-40dd-9447-0ce825f4a01d')
+					window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=399&billId='+ result +'&successUrl=https://gems-store.ru')
 				}
 
 				else {
@@ -64,7 +72,7 @@ https://oplata.qiwi.com/form?invoiceUid=095a4105-560b-40dd-9447-0ce825f4a01d<!DO
 				}
 			} else if(!!mail) {
 				if(!!name) {
-					window.open('https://oplata.qiwi.com/form?invoiceUid=095a4105-560b-40dd-9447-0ce825f4a01d')
+					window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=399&billId='+ result +'&successUrl=https://gems-store.ru')
 				}
 				else {
 					document.getElementById('i4').style = 'background-color: #ff0000'
@@ -77,7 +85,9 @@ https://oplata.qiwi.com/form?invoiceUid=095a4105-560b-40dd-9447-0ce825f4a01d<!DO
 				document.getElementById('i4').style = 'background-color: #ff0000' 
 				document.getElementById('i2').style = 'background-color: #ff0000'
 			}
-		}
+
+            
+        }
 	</script>
 
 </body>
