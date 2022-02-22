@@ -28,6 +28,7 @@
 body {
 	width: 100%;
 	background-image: url('../img/background.jpg');
+	background-color: #121212;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
