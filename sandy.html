@@ -1,4 +1,4 @@
-'_'+document.getElementById('i3').value+<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset='UTF-8'>
@@ -22,7 +22,7 @@
 			<a id='a4' href='index.html#i21'>АККАУНТЫ</a>
 			<a id='a5' href='reviews.html'>ОТЗЫВЫ</a>
 			<a id='a6' href='index.html#text'>О НАС</a>
-			<a id='a7' href='https://t.me/gems_store_support'>ПОДДЕРЖКА</a>
+			<a id='a7' href='support.html'>ПОДДЕРЖКА</a>
 			<h1 id='key' style='color: rgba(0, 0, 0, 0)'>купить гемы бравл старс</h1>
 		</div>
 	</header>
@@ -45,66 +45,10 @@
 
 			<span id='ts1'>Ваш товар будет обработан и отправлен на указанную вами почту в течение 30 минут после оплаты
 			в рабочие часы (c 6:00 до 23:00 по Московскому времени).</span>
-		</div>
-		<div id='instruction'> 
-			<span id='title'>Инструкция по активации промокода</span></br>
-			<button id='b2'  onclick='instr1()'>App Store</button>
-			<button id='b3'  onclick='instr2()'>Google Play</button>
-
-			<div id='appstore'> 
-				<span id='s1'><span style='color: #FFFF00'>Этап 1.</span> Скопируйте промокод, отправленный в письме на вашу почту.</span>
-				<span id='s2'><span style='color: #FFFF00'>Этап 2.</span> Зайдите в приложение ‹App Store›.</span>
-				<span id='s3'><span style='color: #FFFF00'>Этап 3.</span> Пролистайте в самый низ и перейдите по вкладке ‹Ввести код›.</span>
-				<span id='s4'><span style='color: #FFFF00'>Этап 4.</span> Вставьте, скопируемый раннее, промокод и активируйте его. После этого вы можете заходить в игру.</span>
-
-				<img src='img/as1.jpg' id='img1'>
-				<img src='img/as2.jpg' id='img2'>
-				<img src='img/as3.jpg' id='img3'>
-				<img src='img/as4.jpg' id='img4'>
-				<div id='sds'></div>
-			</div>
-
-			<div id='googleplay'> 
-				<span id='s1'><span style='color: #FFFF00'>Этап 1.</span> Скопируйте промокод, отправленный в письме на вашу почту.</span>
-				<span id='s2'><span style='color: #FFFF00'>Этап 2.</span> Зайдите в приложение ‹Play Market› и, нажав в левом верхнем углу на свой профиль, перейдите по вкладке ‹Платежи и подписки›.</span>
-				<span id='s3'><span style='color: #FFFF00'>Этап 3.</span> Выберите вкладку ‹Использовать код пополнения›</span>
-				<span id='s4'><span style='color: #FFFF00'>Этап 4.</span> Вставьте, скопируемый раннее, промокод и активируйте его. После этого вы можете заходить в игру.</span>
-
-				<img src='img/gp1.jpg' id='img1'>
-				<img src='img/gp2.jpg' id='img2'>
-				<img src='img/gp3.jpg' id='img3'>
-				<img src='img/gp4.jpg' id='img4'>
-				<div id='sds'></div>
-			</div>
-		</div>
 		
 	</main>
 
 	<script> 
-		function instr1() {
-			let as = document.getElementById('appstore');
-			as.style.display = 'block';
-			let gp = document.getElementById('googleplay');
-			gp.style.display = 'none';
-
-			document.getElementById('b2').style.color = '#FFFF00';
-			document.getElementById('b2').style.borderBottom = '0.05vw solid #FFFF00';
-			document.getElementById('b3').style.color = '#FFF';
-			document.getElementById('b3').style.borderBottom = '0.05vw solid #FFF';
-		}
-
-		function instr2() {
-			let as = document.getElementById('appstore');
-			as.style.display = 'none';
-			let gp = document.getElementById('googleplay');
-			gp.style.display = 'block';
-
-			document.getElementById('b3').style.color = '#FFFF00';
-			document.getElementById('b3').style.borderBottom = '0.05vw solid #FFFF00';
-			document.getElementById('b2').style.color = '#FFF';
-			document.getElementById('b2').style.borderBottom = '0.05vw solid #FFF';
-		}
-
 		function billid() {
         var result = '';
         var words = '0123456789qwertyuiopasdfghjklzxcvbnm';
@@ -118,7 +62,7 @@
 			let mail = document.getElementById('i2').value
 			if(!!name) {
 				if(!!mail) {
-					window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=119&billId='+ result +'&comment='+document.getElementById('i2').value+'_'+document.getElementById('i3').value+'&successUrl=https://gems-store.ru')
+					window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=119&billId='+ result +'&successUrl=https://gems-store.ru')
 				}
 
 				else {
@@ -128,7 +72,7 @@
 				}
 			} else if(!!mail) {
 				if(!!name) {
-					window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=119&billId='+ result +'&comment='+document.getElementById('i2').value+'_'+document.getElementById('i3').value+'&successUrl=https://gems-store.ru')
+					window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=119&billId='+ result +'&successUrl=https://gems-store.ru')
 				}
 				else {
 					document.getElementById('i4').style = 'background-color: #ff0000'
@@ -141,7 +85,10 @@
 				document.getElementById('i4').style = 'background-color: #ff0000' 
 				document.getElementById('i2').style = 'background-color: #ff0000'
 			}
+
+            
         }
 	</script>
+
 </body>
 </html>
