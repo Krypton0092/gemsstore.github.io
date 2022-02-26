@@ -1,0 +1,252 @@
+@media (max-width: 600px) {
+	header>div#head>a#a2 { display: none }
+	header>div#head>a#a3 { display: none }
+	header>div#head>a#a4 { display: none }
+	header>div#head>a#a6 { display: none }
+	
+	header>div#head>span#title { font-size: 5vw }
+
+	header>div#head>a { margin-top: 4.5% }
+
+	header>div#head>a#a5 {
+		font-size: 2vw;
+		left: 70.5%;
+	}	
+
+	header>div#head>a#a1 {
+		font-size: 2vw;
+		left: 55.5%;
+	}
+
+	header>div#head>a#a7 {
+		font-size: 2vw;
+		left: 84.5%;
+	}
+
+	main>div#box { margin-top: 20% }
+
+	main>div#box>img {
+		width: 22.3%;
+		margin-left: 3.5%;
+		padding: 2% 3% 15% 3%;
+	}
+
+	main>div#box .i1 {
+		margin-top: 15%;
+		width: 22%;
+		margin-left: 3.75%;
+		padding: 2% 3% 15% 3%;
+	}
+
+	main>div#box .i2, main>div#box .i3, main>div#box .i4, main>div#box .i5 {
+		margin-left: 4.75%;
+		width: 21.29%;
+		padding: 2% 3% 15% 3%;
+	}
+
+	main>div#box .i2 { margin-top: 15% }
+	main>div#box .i3 { margin-top: 15% }
+	main>div#box .i4 { margin-top: 15% }
+	main>div#box .i5 { margin-top: 15% }
+	
+
+	main>div#box>span {
+		font-size: 2vw;
+		top: 15.5%;
+	}
+
+	main>div#box .s1 { top: 7.5% }
+	main>div#box .s2 { top: 24.5% }
+	main>div#box .s3 { top: 43% }
+	main>div#box .s4 { top: 61.5% }
+	main>div#box .s5 { top: 78.75% }
+	main>div#box .s6 { top: 95.75% }
+
+	main>div#box>span#s1 { left: 6.5% }
+	main>div#box>span#s2 { left: 38.5% }
+	main>div#box>span#s3 { left: 70% }
+	main>div#box>span#s4 { left: 6.5% }
+	main>div#box>span#s5 { left: 38.5% }
+	main>div#box>span#s6 { left: 70% }
+	main>div#box>span#s11 { left: 6.5% }
+	main>div#box>span#s12 { left: 38.5% }
+	main>div#box>span#s13 { left: 70% }
+	main>div#box>span#s14 { left: 6.5% }
+	main>div#box>span#s15 { left: 38.5% }
+	main>div#box>span#s16 { left: 70% }
+	main>div#box>span#s21 { left: 6.5% }
+	main>div#box>span#s22 { left: 38.5% }
+	main>div#box>span#s23 { left: 70% }
+	main>div#box>span#s24 { left: 6.5% }
+	main>div#box>span#s25 { left: 38.5% }
+	main>div#box>span#s26 { left: 70% }
+
+	main>div#box> .ns1, main>div#box> .ns2, main>div#box> .ns3, main>div#box> .ns4, main>div#box> .ns5, main>div#box> .ns6 { font-size: 1.6vw } 
+
+	main>div#box> .ns1{ top: 8.5% }
+	main>div#box> .ns2{ top: 25.5% }
+	main>div#box> .ns3{ top: 44% }
+	main>div#box> .ns4{ top: 62.5% }
+	main>div#box> .ns5{ top: 79.75% }
+	main>div#box> .ns6{ top: 96.75% }
+
+	main>div#box>span#ns1 { left: 6.5% }
+	main>div#box>span#ns2 { left: 38.5% }
+	main>div#box>span#ns3 { left: 70% }
+	main>div#box>span#ns4 { left: 6.5% }
+	main>div#box>span#ns5 { left: 38.5% }
+	main>div#box>span#ns6 { left: 70% }
+	main>div#box>span#ns11 { left: 6.5% }
+	main>div#box>span#ns12 { left: 38.5% }
+	main>div#box>span#ns13 { left: 70% }
+	main>div#box>span#ns14 { left: 6.5% }
+	main>div#box>span#ns15 { left: 38.5% }
+	main>div#box>span#ns16 { left: 70% }
+	main>div#box>span#ns21 { left: 6.5% }
+	main>div#box>span#ns22 { left: 38.5% }
+	main>div#box>span#ns23 { left: 70% }
+	main>div#box>span#ns24 { left: 6.5% }
+	main>div#box>span#ns25 { left: 38.5% }
+	main>div#box>span#ns26 { left: 70% }
+
+	main>div#box>a {
+		font-size: 2vw;
+		padding: 1% 2% 1% 2%;
+	}
+
+	main>div#box .b1 { top: 10% }
+	main>div#box .b2 { top: 27% }
+	main>div#box .b3 { top: 45.5% }
+	main>div#box .b4 { top: 64% }
+	main>div#box .b5 { top: 81.25% }
+	main>div#box .b6 { top: 98.25% }
+
+	main>div#box>a#b1 { left: 6.5% }
+	main>div#box>a#b2 { left: 38.5% }
+	main>div#box>a#b3 { left: 70% }
+	main>div#box>a#b4 { left: 6.5% }
+	main>div#box>a#b5 { left: 38.5% }
+	main>div#box>a#b6 { left: 70% }
+	main>div#box>a#b11 { left: 6.5% }
+	main>div#box>a#b12 { left: 38.5% }
+	main>div#box>a#b13 { left: 70% }
+	main>div#box>a#b14 { left: 6.5% }
+	main>div#box>a#b15 { left: 38.5% }
+	main>div#box>a#b16 { left: 70% }
+	main>div#box>a#b21 { left: 6.5% }
+	main>div#box>a#b22 { left: 38.5% }
+	main>div#box>a#b23 { left: 70% }
+	main>div#box>a#b24 { left: 6.5% }
+	main>div#box>a#b25 { left: 38.5% }
+	main>div#box>a#b26 { left: 70% }
+
+	main>div#box> .sm1, main>div#box> .sm2, main>div#box> .sm3, main>div#box> .sm4, main>div#box> .sm5, main>div#box> .sm6 { font-size: 2vw } 
+	
+	main>div#box .sm1 { top: 10.4% }
+	main>div#box .sm2 { top: 27.4% }
+	main>div#box .sm3 { top: 45.9% }
+	main>div#box .sm4 { top: 64.4% }
+	main>div#box .sm5 { top: 81.65% }
+	main>div#box .sm6 { top: 98.65% }
+
+	main>div#box>span#sm1 { left: 20% }
+	main>div#box>span#sm2 { left: 52% }
+	main>div#box>span#sm3 { left: 83.5% }
+	main>div#box>span#sm4 { left: 20% }
+	main>div#box>span#sm5 { left: 52% }
+	main>div#box>span#sm6 { left: 83.5% }
+	main>div#box>span#sm11 { left: 20% }
+	main>div#box>span#sm12 { left: 52% }
+	main>div#box>span#sm13 { left: 83.5% }
+	main>div#box>span#sm14 { left: 20% }
+	main>div#box>span#sm15 { left: 52% }
+	main>div#box>span#sm16 { left: 83.5% }
+	main>div#box>span#sm21 { left: 20% }
+	main>div#box>span#sm22 { left: 52% }
+	main>div#box>span#sm23 { left: 83.5% }
+	main>div#box>span#sm24 { left: 20% }
+	main>div#box>span#sm25 { left: 52% }
+	main>div#box>span#sm26 { left: 83.5% }
+
+	main>div#box>s { font-size: 1.3vw }
+
+	main>div#box .ss1 { top: 10.4% }
+	main>div#box .ss2 { top: 27.4% }
+	main>div#box .ss3 { top: 45.9% }
+	main>div#box .ss4 { top: 64.4% }
+	main>div#box .ss5 { top: 81.65% }
+	main>div#box .ss6 { top: 98.65% }
+
+	main>div#box>s#ss1 { left: 25% }
+	main>div#box>s#ss2 { left: 58.5% }
+	main>div#box>s#ss3 { left: 90% }
+	main>div#box>s#ss4 { left: 26.5% }
+	main>div#box>s#ss5 { left: 58.5% }
+	main>div#box>s#ss6 { left: 90% }
+	main>div#box>s#ss11 { left: 25% }
+	main>div#box>s#ss12 { left: 58.5% }
+	main>div#box>s#ss13 { left: 90% }
+	main>div#box>s#ss14 { left: 26.5% }
+	main>div#box>s#ss15 { left: 58.5% }
+	main>div#box>s#ss16 { left: 90% }
+	main>div#box>s#ss21 { left: 25% }
+	main>div#box>s#ss22 { left: 58.5% }
+	main>div#box>s#ss23 { left: 90% }
+	main>div#box>s#ss24 { left: 26.5% }
+	main>div#box>s#ss25 { left: 58.5% }
+	main>div#box>s#ss26 { left: 90% }
+
+	main>div#box2 { margin-top: 20% }
+
+	div#box2>br { display: none }
+
+	main>div#box2>img { 
+		width: 12%;
+		margin: 1% 18% 25% 18%;
+	}
+
+	main>div#box2>span { font-size: 2vw }
+
+	main>div#box2 .s1 { top: 15% }
+	main>div#box2 .s3 { top: 82% }
+	main>div#box2>span#s3, main>div#box2>span#s4 { top: 49% }
+
+	main>div#box2>span#s1 { left: 15.5% }
+	main>div#box2>span#s2 { left: 62.5% }	
+	main>div#box2>span#s3 { left: 19.5% }
+	main>div#box2>span#s4 { left: 66.7% }
+	main>div#box2>span#s5 { left: 14% }
+	main>div#box2>span#s6 { left: 63% }
+
+	main>div#box2> .ss1, main>div#box2> .ss2, main>div#box2> .ss3 { 
+		font-size: 2vw;
+		width: 45%;
+	}
+
+	main>div#box2 .ss1 { top: 19% }
+	main>div#box2 .ss3 { top: 86% }
+	main>div#box2>span#ss3, main>div#box2>span#ss4 { top: 53.5% }
+
+	main>div#box2>span#ss1 { left: 3% }
+	main>div#box2>span#ss2 { left: 51% }
+	main>div#box2>span#ss3 { left: 4% }
+	main>div#box2>span#ss4 { left: 52% }
+	main>div#box2>span#ss5 { left: 3% }
+	main>div#box2>span#ss6 { left: 52% }
+
+	main>div#box3 {
+		margin-top: 15%;
+	}
+
+	main>div#box3>span {
+		position: absolute;
+		font-family: 'cond';
+		font-size: 2vw;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	main>div#b4 {
+		margin-top: 70%;
+	}
+}

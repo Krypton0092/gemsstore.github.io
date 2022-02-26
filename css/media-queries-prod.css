@@ -1,0 +1,162 @@
+@media (max-width: 600px) {
+	header>div#head>a#a2 { display: none }
+	header>div#head>a#a3 { display: none }
+	header>div#head>a#a4 { display: none }
+	header>div#head>a#a6 { display: none }
+	
+	header>div#head>span#title { font-size: 5vw }
+
+	header>div#head>a { margin-top: 4.5% }
+
+	header>div#head>a#a5 {
+		font-size: 2vw;
+		left: 70.5%;
+	}	
+
+	header>div#head>a#a1 {
+		font-size: 2vw;
+		left: 55.5%;
+	}
+
+	header>div#head>a#a7 {
+		font-size: 2vw;
+		left: 84.5%;
+	}
+
+	main>div#box { margin-top: 20% }
+
+	main>div#box>img {
+		width: 28%;
+		margin: 5% 3% 80% -45%;
+	}
+
+	main>div#box>span#s1 {
+		font-size: 2.5vw;
+		top: 30.5%;
+		left: 15%;
+	}
+
+	main>div#box>span#ns1 {
+		font-size: 2.1vw;
+		top: 34.5%;
+		left: 15%;
+	}
+
+	main>div#box>span#ns2, main>div#box>span#ns3, main>div#box>span#ns4 {
+		font-size: 1.7vw;
+		left: 45%;
+	}
+
+	main>div#box>span#ns5 {
+		font-size: 1.7vw;
+		color: #FF0000;
+		left: 45%;
+	}
+
+	main>div#box>span#ns2 { top: 5% }
+	main>div#box>span#ns3 { top: 15% }
+	main>div#box>span#ns4 { top: 29.75% }
+	main>div#box>span#ns5 { top: 29.75% }
+
+	main>div#box .b1 {
+		font-size: 2vw;
+		top: 31%;
+		right: 15%;
+		padding: 1.75% 3% 1.75% 3%;
+	}
+
+	main>div#box>input {
+		font-size: 1.6vw;
+		top: 8%;
+		left: 45%;
+		width: 40%;
+		padding: 1.2% 0 1.2% 0;
+	}
+
+	main>div#box>input#i3 { top: 18%  }
+
+	main>div#box>input#i4 {
+		top: 32.75%;
+		width: 18%;
+	}
+
+	main>div#box .ts {
+		width: 80%;
+		font-size: 2vw;
+		text-align: left;
+		left: 13.5%;
+	}
+
+	main>div#box>span .m { display: none }
+
+	main>div#box>span#ts1 { top: 50% }
+	main>div#box>span#ts2 { top: 57.5% }
+	main>div#box>span#ts3 { top: 67.5% }
+	main>div#box>span#ts4 { top: 77.5% }
+	main>div#box>span#ts5 { top: 87.5% }
+
+	main>div#box .icons { width: 3% }
+
+	main>div#box>img#icon1{ 
+		top: 45.2%;
+		left: 53.85%;
+	}
+
+	main>div#box>img#icon2{ 
+		top: 52.5%;
+		left: 53.85%;
+	}
+
+	main>div#box>img#icon3{ 
+		top: 62.75%;
+		left: 53.85%;
+	}
+
+	main>div#box>img#icon4{ 
+		top: 72.75%;
+		left: 53.85%;
+	}
+
+	main>div#box>img#icon5{ 
+		top: 83%;
+		left: 54%;
+	}
+
+	main>div#box2 { margin-top: 20% }
+
+	div#box2>br { display: none }
+
+	main>div#box2>img { 
+		width: 12%;
+		margin: 1% 18% 25% 18%;
+	}
+
+	main>div#box2>span { font-size: 2vw }
+
+	main>div#box2 .s1 { top: 15% }
+	main>div#box2 .s3 { top: 82% }
+	main>div#box2>span#s3, main>div#box2>span#s4 { top: 49% }
+
+	main>div#box2>span#s1 { left: 15.5% }
+	main>div#box2>span#s2 { left: 62.5% }	
+	main>div#box2>span#s3 { left: 19.5% }
+	main>div#box2>span#s4 { left: 66.7% }
+	main>div#box2>span#s5 { left: 14% }
+	main>div#box2>span#s6 { left: 63% }
+
+	main>div#box2> .ss1, main>div#box2> .ss2, main>div#box2> .ss3 { 
+		font-size: 2vw;
+		width: 45%;
+	}
+
+	main>div#box2 .ss1 { top: 19% }
+	main>div#box2 .ss3 { top: 86% }
+	main>div#box2>span#ss3, main>div#box2>span#ss4 { top: 53.5% }
+
+	main>div#box2>span#ss1 { left: 3% }
+	main>div#box2>span#ss2 { left: 51% }
+	main>div#box2>span#ss3 { left: 4% }
+	main>div#box2>span#ss4 { left: 52% }
+	main>div#box2>span#ss5 { left: 3% }
+	main>div#box2>span#ss6 { left: 52% }
+}

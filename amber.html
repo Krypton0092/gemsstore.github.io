@@ -2,8 +2,9 @@
 <html>
 <head>
 	<meta charset='UTF-8'>
-	<title>GemsStore - Купить Легенду Амбер для Brawl Stars</title>
+	<title>GemsStore - Купить Амбер Brawl Stars</title>
 	<link rel='stylesheet' href='css/prod.css'>
+	<link rel='stylesheet' href='css/media-queries-prod.css'>
 	<link rel='icon' href='img/logo.ico' type='image/x-icon'>
 	<link rel='shortcut icon' href='img/logo.ico' type='image/x-icon'>
 	<meta name="keywords" content="купить гемы бравл старс, купить гемы brawl stars, купить аккаунт бравл старс, купить аккаунт brawl stars,
@@ -22,8 +23,8 @@
 			<a id='a4' href='index.html#i21'>АККАУНТЫ</a>
 			<a id='a5' href='reviews.html'>ОТЗЫВЫ</a>
 			<a id='a6' href='index.html#text'>О НАС</a>
-			<a id='a7' href='support.html'>ПОДДЕРЖКА</a>
-			<h1 id='key' style='color: rgba(0, 0, 0, 0)'>купить гемы бравл старс</h1>
+			<a id='a7' href='https://t.me/gems_store_support'>ПОДДЕРЖКА</a>
+			<h1 id='key' style='display: none'>Купить Амбер бравл старс</h1>
 		</div>
 	</header>
 
@@ -32,61 +33,120 @@
 			<img src='img/amber.png' id='i1'>
 
 			<span id='s1'>АМБЕР</span>
-			<span id='ns1'>App Store | Google Play</span>
+			<span id='ns1'>Пополнение</span>
 
-			<input type='text' id='i4'>
 			<input type='text' id='i2'>
 			<input type='text' id='i3'>
+			<input type='text' id='i4'>
 
-			<a id='b1' onclick="billid()">Купить 119&#8381;</a>
-			<span id='ns2'>*Имя</span>
+			<a class='b1' onclick="billid()">Купить 119&#8381;</a>
+			<span id='ns2'>*Имя в игре</span>
 			<span id='ns3'>*Эл.Почта</span>
-			<span id='ns4'>*Промокод (если есть)</span>
+			<span id='ns4'>*Промокод</span>
+			<span id='ns5'>Недействительный</span>
 
-			<span id='ts1'>Ваш товар будет обработан и отправлен на указанную вами почту в течение 30 минут после оплаты
-			в рабочие часы (c 6:00 до 23:00 по Московскому времени).</span>
-		
+			<span id='ts1' class='ts'><span class='m'>&#8226;</span> В среднем обработка и выдача товара не занимает более 15 минут</span>
+			<span id='ts2' class='ts'><span class='m'>&#8226;</span> Вы получите свой товар прямиком в самой игре (потребуется перезаход в игру)</span>
+			<span id='ts3' class='ts'><span class='m'>&#8226;</span> Вы можете полностью рассчитывать на конфиденциальность ваших данных</span>
+			<span id='ts4' class='ts'><span class='m'>&#8226;</span> В случае проблем с оплатой, выдачей товара или иных проблем обратитесь в <a href='https://t.me/gems_store_support' id='sup'>поддержку</a></span>
+			<span id='ts5' class='ts'><span class='m'>&#8226;</span> Наша поддержка работает 24/7</span>
+
+			<img src='img/v1.png' id='icon1' class='icons'>
+			<img src='img/v2.png' id='icon2' class='icons'>
+			<img src='img/v3.png' id='icon3' class='icons'>
+			<img src='img/v4.png' id='icon4' class='icons'>
+			<img src='img/v5.png' id='icon5' class='icons'>
+		</div>
+
+		<div id='box2'> 
+			<img src='img/q1.png'><img src='img/q2.png'><img src='img/q6.png' class='i2'></br><img src='img/q4.png' class='i2'><img src='img/q3.png' class='i3'><img src='img/q5.png' class='i3'>
+
+			<span id='s1' class='s1'>ПОЛНЫЙ ДОСТУП</span>
+			<span id='s2' class='s1'>ОПРАВКА НА ПОЧТУ</span>
+			<span id='s3' class='s2'>БЕЗОПАСНО</span>
+			<span id='s4' class='s2'>ПОДДЕРЖКА</span>
+			<span id='s5' class='s3'>ВЫСОКОЕ КАЧЕСТВО</span>
+			<span id='s6' class='s3'>БОЛЬШИЕ СКИДКИ</span>
+
+			<span id='ss1' class='ss1'>Аккаунты продаются с полным доступом и валидными данными.</span>
+			<span id='ss2' class='ss1'>Мы моментально доставим вам ваш товар на почту или игровой аккаунт.</span>
+			<span id='ss3' class='ss2'>Все платежи защищены через платежный сервис.</span>
+			<span id='ss4' class='ss2'>Мы всегда остаемся на связи со своими покупателями.</span>
+			<span id='ss5' class='ss3'>Товар полностью соответствует его описанию.</span>
+			<span id='ss6' class='ss3'>На нашем сайте действуют скидки до 50% на все товары.</span>
+		</div>
+		<div id='b4'></div>
 	</main>
 
 	<script> 
 		function billid() {
-        var result = '';
-        var words = '0123456789qwertyuiopasdfghjklzxcvbnm';
-        var max_position = words.length - 1;
-            for( i = 0; i < 12; ++i ) {
-                position = Math.floor ( Math.random() * max_position );
-                result = result + words.substring(position, position + 1);
-            }
+	        var result = '';
+	        var words = '0123456789qwertyuiopasdfghjklzxcvbnm';
+	        var max_position = words.length - 1;
 
-            let name = document.getElementById('i4').value
-			let mail = document.getElementById('i2').value
+	        for( i = 0; i < 12; ++i ) {
+	            position = Math.floor ( Math.random() * max_position );
+	            result = result + words.substring(position, position + 1);
+	        }
+
+            let name = document.getElementById('i2').value
+			let mail = document.getElementById('i3').value
+			let promo = document.getElementById('i4').value
+
 			if(!!name) {
 				if(!!mail) {
-					window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=119&billId='+ result +'&successUrl=https://gems-store.ru')
+					if(!!promo) {
+						document.getElementById('ns4').style = 'display: none';
+						document.getElementById('ns5').style = 'display: block';
+						document.getElementById('i3').style = 'background-color: #FFF'
+						document.getElementById('i2').style = 'background-color: #FFF'
+					}
+
+					else {
+						window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=119&billId='+ result +'&successUrl=https://gems-store.ru&comment='+ mail)
+
+						document.getElementById('i3').style = 'background-color: #FFF'
+						document.getElementById('i2').style = 'background-color: #FFF'
+						document.getElementById('ns4').style = 'display: block';
+						document.getElementById('ns5').style = 'display: none';
+					}
 				}
-
 				else {
-					document.getElementById('i2').style = 'background-color: #ff0000'
-					document.getElementById('i4').style = 'background-color: #fff'
-
+					document.getElementById('i3').style = 'background-color: #ff0000'
+					document.getElementById('i2').style = 'background-color: #fff'
+					document.getElementById('ns4').style = 'display: block';
+					document.getElementById('ns5').style = 'display: none';
 				}
 			} else if(!!mail) {
 				if(!!name) {
-					window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=119&billId='+ result +'&successUrl=https://gems-store.ru')
+					if(!!promo) {
+						document.getElementById('ns4').style = 'display: block';
+						document.getElementById('ns5').style = 'display: none';
+						document.getElementById('i3').style = 'background-color: #FFF'
+						document.getElementById('i2').style = 'background-color: #FFF'
+					}
+					else {
+						window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=119&billId='+ result +'&successUrl=https://gems-store.ru&comment='+ mail)
+						document.getElementById('ns4').style = 'display: block';
+						document.getElementById('ns5').style = 'display: none';
+
+						document.getElementById('i3').style = 'background-color: #FFF'
+						document.getElementById('i2').style = 'background-color: #FFF'
+					}
 				}
 				else {
-					document.getElementById('i4').style = 'background-color: #ff0000'
-					document.getElementById('i2').style = 'background-color: #fff'
+					document.getElementById('i2').style = 'background-color: #ff0000'
+					document.getElementById('i3').style = 'background-color: #fff'
+					document.getElementById('ns4').style = 'display: block';
+					document.getElementById('ns5').style = 'display: none';
 				}
 			}
-
-
 			else {
-				document.getElementById('i4').style = 'background-color: #ff0000' 
-				document.getElementById('i2').style = 'background-color: #ff0000'
-			}
-
-            
+				document.getElementById('i2').style = 'background-color: #ff0000' 
+				document.getElementById('i3').style = 'background-color: #ff0000'
+				document.getElementById('ns4').style = 'display: block';
+				document.getElementById('ns5').style = 'display: none';
+			}       
         }
 	</script>
 
