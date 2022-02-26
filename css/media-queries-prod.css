@@ -159,4 +159,8 @@
 	main>div#box2>span#ss4 { left: 52% }
 	main>div#box2>span#ss5 { left: 3% }
 	main>div#box2>span#ss6 { left: 52% }
+	
+	main>div#b4 {
+		margin-top: 100%;
+	}
 }
