@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset='UTF-8'>
-	<title>GemsStore - Купить СПЕЦПАК для Brawl Stars</title>
+	<title>GemsStore - Купить Спецпак для Brawl Stars</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel='stylesheet' href='css/prod.css'>
 	<link rel='stylesheet' href='css/media-queries-prod.css'>
@@ -19,13 +19,12 @@
 			<span id='title'>GEMS STORE</span>
 
 			<a id='a1' href='index.html'>ГЛАВНАЯ</a>
-			<a id='a2' href='index.html#i1'>ГЕМЫ</a>
-			<a id='a3' href='index.html#i11'>ЛЕГЕНДЫ</a>
-			<a id='a4' href='index.html#i21'>АККАУНТЫ</a>
-			<a id='a5' href='reviews.html'>ОТЗЫВЫ</a>
-			<a id='a6' href='index.html#text'>О НАС</a>
+			<a id='a2' href='#i1'>ГЕМЫ</a>
+			<a id='a3' href='#i11'>ЛЕГЕНДЫ</a>
+			<a id='a4' href='#i21'>АККАУНТЫ</a>
+			<a id='a5' href='terms.html'>ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ</a>
 			<a id='a7' href='https://t.me/gems_store_support'>ПОДДЕРЖКА</a>
-			<h1 id='key' style='display: none'>Купить аккаунт бравл старс</h1>
+			<h1 id='key' style='display: none'>купить гемы бравл старс</h1>
 		</div>
 	</header>
 
@@ -34,13 +33,18 @@
 			<img src='img/acc1.png' id='i1'>
 
 			<span id='s1'>СПЕЦПАК</span>
-			<span id='ns1'>Аккаунт</span>
+			<span id='ns1'>Пополнение</span>
 
 			<input type='text' id='i2'>
 			<input type='text' id='i3'>
 			<input type='text' id='i4'>
+			
+			<img src='img/checkbox_unchecked.png' class='checkbox' onclick='dis1()' id='imgCheck1'>
+			<img src='img/checkbox_checked.png' class='checkbox' onclick='dis2()' id='imgCheck2'>
 
-			<a class='b1' onclick="billid()">Купить 399&#8381;</a>
+			<span id='checkbox'>Я соглашаюсь с <a href='terms.html'>пользовательским соглашением</a></span>
+
+			<button class='b1' onclick="billid()" id='b1'>Купить 399&#8381;</button>
 			<span id='ns2'>*ID аккаунта</span>
 			<span id='ns3'>*Эл.Почта</span>
 			<span id='ns4'>*Промокод</span>
@@ -80,6 +84,24 @@
 	</main>
 
 	<script> 
+		document.getElementById('imgCheck2').style = 'display: none'
+		document.getElementById('b1').style = 'background-color: #CCC; border:none';
+		document.getElementById('b1').disabled = true;
+
+		function dis1() {
+			document.getElementById('imgCheck1').style = 'display: none'
+			document.getElementById('imgCheck2').style = 'display: inline'
+			document.getElementById('b1').style = 'background-color: #FFFF00; border:none';
+			document.getElementById('b1').disabled = false;
+		}
+
+		function dis2() {
+			document.getElementById('imgCheck1').style = 'display: inline'
+			document.getElementById('imgCheck2').style = 'display: none'
+			document.getElementById('b1').style = 'background-color: #CCC; border:none';
+			document.getElementById('b1').disabled = true;
+		}
+
 		function billid() {
 	        var result = '';
 	        var words = '0123456789qwertyuiopasdfghjklzxcvbnm';
@@ -150,6 +172,5 @@
 			}       
         }
 	</script>
-
 </body>
 </html>

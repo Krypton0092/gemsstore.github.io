@@ -2,20 +2,16 @@
 	header>div#head>a#a2 { display: none }
 	header>div#head>a#a3 { display: none }
 	header>div#head>a#a4 { display: none }
+	header>div#head>a#a5 { display: none }
 	header>div#head>a#a6 { display: none }
 	
 	header>div#head>span#title { font-size: 5vw }
 
 	header>div#head>a { margin-top: 4.5% }
 
-	header>div#head>a#a5 {
-		font-size: 2vw;
-		left: 70.5%;
-	}	
-
 	header>div#head>a#a1 {
 		font-size: 2vw;
-		left: 55.5%;
+		left: 65%;
 	}
 
 	header>div#head>a#a7 {

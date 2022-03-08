@@ -2,20 +2,16 @@
 	header>div#head>a#a2 { display: none }
 	header>div#head>a#a3 { display: none }
 	header>div#head>a#a4 { display: none }
+	header>div#head>a#a5 { display: none }
 	header>div#head>a#a6 { display: none }
 	
 	header>div#head>span#title { font-size: 5vw }
 
 	header>div#head>a { margin-top: 4.5% }
 
-	header>div#head>a#a5 {
-		font-size: 2vw;
-		left: 70.5%;
-	}	
-
 	header>div#head>a#a1 {
 		font-size: 2vw;
-		left: 55.5%;
+		left: 65%;
 	}
 
 	header>div#head>a#a7 {
@@ -85,6 +81,19 @@
 		font-size: 2vw;
 		text-align: left;
 		left: 13.5%;
+	}
+
+	main>div#box>span#checkbox {
+		top: 40.1%;
+		left: 48%;
+		font-size: 1.35vw;
+	}
+
+	main>div#box> .checkbox {
+		position: absolute;
+		width: 2%;
+		left: 89.5%;
+		top: 35.4%;
 	}
 
 	main>div#box>span .m { display: none }
@@ -159,7 +168,6 @@
 	main>div#box2>span#ss4 { left: 52% }
 	main>div#box2>span#ss5 { left: 3% }
 	main>div#box2>span#ss6 { left: 52% }
-	
 	main>div#b4 {
 		margin-top: 100%;
 	}
